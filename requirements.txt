@@ -1,2 +1,2 @@
-discord.py==2.4.0  # or latest stable, e.g. 2.3.2 if issues
-flask==3.0.3
+flask
+discord.py==2.4.0  # pinned for stability
