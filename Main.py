@@ -61,6 +61,7 @@ def run_bot(token):
 
         bot = commands.Bot(command_prefix="!", intents=intents)
         bot.load_extension("admin")   # ← add this line here
+        
         @bot.event
         async def on_ready():
             print(f"Bot {bot.user} is ready!")
